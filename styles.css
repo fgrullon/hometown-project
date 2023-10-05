@@ -10,6 +10,11 @@ body {
     background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 
 .hero {
     width: 100%;
@@ -17,6 +22,7 @@ body {
     margin-top: 2px;
     background: url("images/santo-domingo.jpg");
     background-position: center;
+    background-size: cover;
     margin-top: 0;
     display: flex;
     flex-direction: column;
@@ -44,6 +50,11 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 5px #F89880;
 }
+
+.top-three-img:hover {
+    box-shadow: 0 0 10px #F89880;
+}
+
 
 #activities-title {
     color: black;
@@ -73,7 +84,7 @@ body {
 /* #d5fefd 0%, #fffcff */
 
 .guide-div {
-    margin-top: 20px; 
+    margin: 20px 0 20px 0; 
     padding: 30px;
     display: flex;
     flex-direction: row;
