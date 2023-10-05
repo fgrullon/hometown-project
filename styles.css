@@ -1,0 +1,99 @@
+
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+}
+
+
+.hero {
+    margin-top: 2px;
+    width: 100%;
+    height: 250px;
+    background: url("images/santo-domingo.jpg");
+    background-size: cover;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px black;
+}
+
+.hero h2 {
+    font-size: 16px;
+    width: 320px;
+    margin-top: 0;
+    text-shadow: 1px 2px black;
+}
+
+.top-three-img {
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #F89880;
+}
+
+#activities-title {
+    color: black;
+    
+}
+.activities {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+}
+
+.activities div {
+    width: 100px;
+    margin:auto;
+}
+.activities h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.activities p {
+    font-size: 9px;
+}
+/* #d5fefd 0%, #fffcff */
+
+.guide-div {
+    margin-top: 20px; 
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    height: 168px;
+    background: #d8e2dc;
+    border-radius: 2%;
+    box-shadow: 0 5px 5px black;
+}
+
+.guide-div h1 {
+    font-size: 16px;
+}
+
+.guide-div p {
+    font-size: 10px;
+    margin : 8px;    
+}
+
+.guide-img {
+    width: 140px;
+    height: 180px;
+}
